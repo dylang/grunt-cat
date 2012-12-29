@@ -1,6 +1,6 @@
 # grunt-cat
 
-> Cat a file to the terminal. Works with text, ascii art, and even colorful ansi.
+> Cat a file to the terminal. Works great with text, ascii art, and even colorful ansi.
 
 This task may require `Grunt 0.4`.
 
@@ -41,7 +41,6 @@ grunt.registerTask('server', ['cat:logo', 'uglify', 'sass', 'server', 'notify:se
 
 [![Watch example](https://github.com/dylang/grunt-cat/raw/master/screenshots/doodleordie.png)](https://github.com/dylang/grunt-cat)
 
-
 ### Options
 * `file` (_required_): Path to the file. This is relative to the root of your project.
 
@@ -53,7 +52,7 @@ This project was created for and is used by [Doodle or Die](http://doodleOrDie.c
 
 This is what it looks like when we run our local dev server using the production MongoDB:
 
-[![Doodle or Die example](https://github.com/dylang/grunt-notify/raw/master/screenshots/doodleordie-prod.png)](http://doodleOrDie.com)
+[![Doodle or Die example](https://github.com/dylang/grunt-cat/raw/master/screenshots/doodleordie-prod.png)](http://doodleOrDie.com)
 
 ## Release History
 Dec 28 - First version
