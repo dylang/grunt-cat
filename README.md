@@ -7,7 +7,7 @@ This task may require `Grunt 0.4`.
 ## Getting Started
 
 ```bash
-npm install grunt-notify --save-dev
+npm install grunt-cat --save-dev
 ```
 
 Once that's done, add this line to your project's Gruntfile:
