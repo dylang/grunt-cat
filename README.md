@@ -2,7 +2,7 @@
 
 > Cat a file to the terminal. Works great with text, ascii art, and even colorful ansi.
 
-This task may require `Grunt 0.4`.
+This task requires `Grunt 0.4` or above.
 
 ## Getting Started
 
@@ -55,4 +55,5 @@ This is what it looks like when we run our local dev server using the production
 [![Doodle or Die example](https://github.com/dylang/grunt-cat/raw/master/screenshots/doodleordie-prod.png)](http://doodleOrDie.com)
 
 ## Release History
+March 17 - Update readme, dependency versions.
 Dec 28 - First version
