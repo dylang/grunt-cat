@@ -27,6 +27,13 @@ module.exports = function(grunt) {
     cat: {
       doodle_or_die: {
         file: 'test/fixtures/doodleordie.ansi'
+      },
+      multi_line: {
+        src: ['test/fixtures/*.txt']
+      },
+      multi_close: {
+        options: {linebreak:false},
+        src: ['test/fixtures/*.txt']
       }
     },
 

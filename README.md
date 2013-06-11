@@ -29,6 +29,13 @@ grunt.initConfig({
     },
     prod: {
       file: 'files/prod-logo.txt'
+    },
+    multi: {
+      src: ['files/**/*.txt']
+    },
+    multi_stream: {
+      options: {linebreak:false},
+      src: ['files/**/*.txt']
     }
   }
 });
@@ -55,5 +62,6 @@ This is what it looks like when we run our local dev server using the production
 [![Doodle or Die example](https://github.com/dylang/grunt-cat/raw/master/screenshots/doodleordie-prod.png)](http://doodleOrDie.com)
 
 ## Release History
+June 11 - Added linebreak option, added src grunt convention (globbing/filter)
 March 17 - Update readme, dependency versions.
 Dec 28 - First version
