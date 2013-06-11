@@ -1,7 +1,7 @@
 {
   "name": "grunt-cat",
   "description": "Echo a file to the terminal. Works with text, figlets, ascii art, and full-color ansi.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/dylang/grunt-cat",
   "author": {
     "name": "Dylan Greene",
